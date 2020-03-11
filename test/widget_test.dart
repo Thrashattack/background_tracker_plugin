@@ -14,14 +14,16 @@ import 'package:background_tracker_plugin/background_tracker_plugin.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
-  
   testWidgets('Background tracker report status test',
       (WidgetTester tester) async {
     // Build our app and trigger a frame.
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString("id_parceiro", "199");
-    await tester.pumpWidget(BackgroundTrackerPlugin(endpoint: "http://app.vemrodar.com.br/app/fetchLocation.php", prefsKey: "id_parceiro",));
-    sleep(Duration(seconds: 5));
+    BackgroundTrackerPlugin(
+      endpoint: "http://app.vemrodar.com.br/app/fetchLocation.php",
+      prefsKey: "id_parceiro",
+    );;
+    
     GeofenceEvent event = GeofenceEvent.ENTER;
 
     expect(prefs.getString("Geofence Service Last Report"),

@@ -18,6 +18,7 @@ class BackgroundTrackerPlugin extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    WidgetsFlutterBinding.ensureInitialized();
     this.initPlugin(this.endpoint, this.prefsKey);
     return Container();
   }
