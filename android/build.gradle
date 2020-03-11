@@ -38,10 +38,10 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        provided rootProject.findProject(":wakelock")
-        provided rootProject.findProject(":shared_preferences")
-        provided rootProject.findProject(":geolocator")
-        provided rootProject.findProject(":http")
+        rootProject.findProject(":wakelock")
+        rootProject.findProject(":shared_preferences")
+        rootProject.findProject(":geolocator")
+        rootProject.findProject(":http")
     }
 }
 

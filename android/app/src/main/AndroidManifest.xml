@@ -18,6 +18,6 @@
         </intent-filter>
     </receiver>
     <application
-        android:name=".Application" />
+        android:name=".BackgroundTrackerPlugin" />
 
 </manifest>

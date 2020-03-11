@@ -1,4 +1,4 @@
-class Application : FlutterApplication(), PluginRegistrantCallback {
+class BackgroundTrackerPlugin : FlutterApplication(), PluginRegistrantCallback {
   override fun onCreate() {
     super.onCreate();
     GeofenceTransitionsJobIntentService.setPluginRegistrant(this)
