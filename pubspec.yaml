@@ -1,5 +1,5 @@
 name: background_tracker_plugin
-description: An piece of flutter wich implements background geotracking with geofence
+description: A package that implements background geotracking with geofence
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43

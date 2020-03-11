@@ -27,8 +27,8 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "9e18fe416f9d915f85674379722e8fd6cb602e44"
-      url: "https://github.com/Thrashattack/background_tracker_plugin.git"
+      resolved-ref: ac66b11e794877bfa22012fc28ddb5527a8bc18a
+      url: "https://github.com/Thrashattack/background_tracker_plugin"
     source: git
     version: "1.0.0+1"
   boolean_selector:

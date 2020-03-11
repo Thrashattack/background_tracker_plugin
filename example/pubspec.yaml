@@ -1,5 +1,5 @@
 name: example
-description: A new Flutter project.
+description: A new Flutter project sample for BackgroundTrackerPlugin
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -25,7 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   background_tracker_plugin:
     git:
-      url: https://github.com/Thrashattack/background_tracker_plugin.git
+      url: https://github.com/Thrashattack/background_tracker_plugin
 
 dev_dependencies:
   flutter_test:
